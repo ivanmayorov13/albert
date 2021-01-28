@@ -1,63 +1,162 @@
-@font-face {
-font-family: 'Gilroy Semibold';
-src: url('Gilroy-SemiBold.eot');
-src: url('Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
-url('Gilroy-SemiBold.woff') format('woff'),
-url('Gilroy-SemiBold.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+@font-face { 
+    font-family: "HelveticaThin";
+    src: url("../fonts/HelveticaThin/HelveticaThin.eot");
+    src: url("../fonts/HelveticaThin/HelveticaThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaThin/HelveticaThin.woff") format("woff"),
+    url("../fonts/HelveticaThin/HelveticaThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100;
 }
-@font-face {
-font-family: 'Gilroy Medium';
-src: url('Gilroy-Medium.eot');
-src: url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
-url('Gilroy-Medium.woff') format('woff'),
-url('Gilroy-Medium.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+@font-face { 
+    font-family: "HelveticaUltraLightItalic";
+    src: url("../fonts/HelveticaUltraLightItalic/HelveticaUltraLightItalic.eot");
+    src: url("../fonts/HelveticaUltraLightItalic/HelveticaUltraLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaUltraLightItalic/HelveticaUltraLightItalic.woff") format("woff"),
+    url("../fonts/HelveticaUltraLightItalic/HelveticaUltraLightItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
 }
-@font-face {
-font-family: 'Gilroy Extra Bold';
-src: url('Gilroy-ExtraBold.eot');
-src: url('Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
-url('Gilroy-ExtraBold.woff') format('woff'),
-url('Gilroy-ExtraBold.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+@font-face { 
+    font-family: "HelveticaLight";
+    src: url("../fonts/HelveticaLight/HelveticaLight.eot");
+    src: url("../fonts/HelveticaLight/HelveticaLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaLight/HelveticaLight.woff") format("woff"),
+    url("../fonts/HelveticaLight/HelveticaLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
 }
-@font-face {
-font-family: 'Gilroy Heavy Italic';
-src: url('Gilroy-HeavyItalic.eot');
-src: url('Gilroy-HeavyItalic.eot?#iefix') format('embedded-opentype'),
-url('Gilroy-HeavyItalic.woff') format('woff'),
-url('Gilroy-HeavyItalic.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+@font-face { 
+    font-family: "HelveticaRegular";
+    src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
+    src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
+    url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
 }
-@font-face {
-font-family: 'Helvetica Neue Cyr Bold';
-src: url('HelveticaNeueCyr-Bold.eot');
-src: url('HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
-url('HelveticaNeueCyr-Bold.woff') format('woff'),
-url('HelveticaNeueCyr-Bold.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+@font-face { 
+    font-family: "HelveticaMedium";
+    src: url("../fonts/HelveticaMedium/HelveticaMedium.eot");
+    src: url("../fonts/HelveticaMedium/HelveticaMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaMedium/HelveticaMedium.woff") format("woff"),
+    url("../fonts/HelveticaMedium/HelveticaMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
 }
-@font-face {
-font-family: 'Helvetica Neue Cyr Light';
-src: url('HelveticaNeueCyr-Light.eot');
-src: url('HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
-url('HelveticaNeueCyr-Light.woff') format('woff'),
-url('HelveticaNeueCyr-Light.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+@font-face { 
+    font-family: "HelveticaUltraLight";
+    src: url("../fonts/HelveticaUltraLight/HelveticaUltraLight.eot");
+    src: url("../fonts/HelveticaUltraLight/HelveticaUltraLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaUltraLight/HelveticaUltraLight.woff") format("woff"),
+    url("../fonts/HelveticaUltraLight/HelveticaUltraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 200;
 }
-@font-face {
-font-family: 'Helvetica Neue Cyr Light Italic';
-src: url('HelveticaNeueCyr-LightItalic.eot');
-src: url('HelveticaNeueCyr-LightItalic.eot?#iefix') format('embedded-opentype'),
-url('HelveticaNeueCyr-LightItalic.woff') format('woff'),
-url('HelveticaNeueCyr-LightItalic.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+@font-face { 
+    font-family: "HelveticaBold";
+    src: url("../fonts/HelveticaBold/HelveticaBold.eot");
+    src: url("../fonts/HelveticaBold/HelveticaBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaBold/HelveticaBold.woff") format("woff"),
+    url("../fonts/HelveticaBold/HelveticaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face { 
+    font-family: "HelveticaBlack";
+    src: url("../fonts/HelveticaBlack/HelveticaBlack.eot");
+    src: url("../fonts/HelveticaBlack/HelveticaBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaBlack/HelveticaBlack.woff") format("woff"),
+    url("../fonts/HelveticaBlack/HelveticaBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face { 
+    font-family: "HelveticaThinItalic";
+    src: url("../fonts/HelveticaThinItalic/HelveticaThinItalic.eot");
+    src: url("../fonts/HelveticaThinItalic/HelveticaThinItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaThinItalic/HelveticaThinItalic.woff") format("woff"),
+    url("../fonts/HelveticaThinItalic/HelveticaThinItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 100;
+}
+@font-face { 
+    font-family: "HelveticaLightItalic";
+    src: url("../fonts/HelveticaLightItalic/HelveticaLightItalic.eot");
+    src: url("../fonts/HelveticaLightItalic/HelveticaLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaLightItalic/HelveticaLightItalic.woff") format("woff"),
+    url("../fonts/HelveticaLightItalic/HelveticaLightItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face { 
+    font-family: "HelveticaItalic";
+    src: url("../fonts/HelveticaItalic/HelveticaItalic.eot");
+    src: url("../fonts/HelveticaItalic/HelveticaItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaItalic/HelveticaItalic.woff") format("woff"),
+    url("../fonts/HelveticaItalic/HelveticaItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face { 
+    font-family: "HelveticaMediumItalic";
+    src: url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.eot");
+    src: url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.woff") format("woff"),
+    url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 500;
+}
+@font-face { 
+    font-family: "HelveticaBoldItalic";
+    src: url("../fonts/HelveticaBoldItalic/HelveticaBoldItalic.eot");
+    src: url("../fonts/HelveticaBoldItalic/HelveticaBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaBoldItalic/HelveticaBoldItalic.woff") format("woff"),
+    url("../fonts/HelveticaBoldItalic/HelveticaBoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face { 
+    font-family: "HelveticaBlackItalic";
+    src: url("../fonts/HelveticaBlackItalic/HelveticaBlackItalic.eot");
+    src: url("../fonts/HelveticaBlackItalic/HelveticaBlackItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaBlackItalic/HelveticaBlackItalic.woff") format("woff"),
+    url("../fonts/HelveticaBlackItalic/HelveticaBlackItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 900;
+}
+@font-face { 
+    font-family: "HelveticaHeavy";
+    src: url("../fonts/HelveticaHeavy/HelveticaHeavy.eot");
+    src: url("../fonts/HelveticaHeavy/HelveticaHeavy.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaHeavy/HelveticaHeavy.woff") format("woff"),
+    url("../fonts/HelveticaHeavy/HelveticaHeavy.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face { 
+    font-family: "HelveticaHeavyItalic";
+    src: url("../fonts/HelveticaHeavyItalic/HelveticaHeavyItalic.eot");
+    src: url("../fonts/HelveticaHeavyItalic/HelveticaHeavyItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaHeavyItalic/HelveticaHeavyItalic.woff") format("woff"),
+    url("../fonts/HelveticaHeavyItalic/HelveticaHeavyItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face { 
+    font-family: "GilroyMediumItalic";
+    src: url("../fonts/GilroyMediumItalic/GilroyMediumItalic.eot");
+    src: url("../fonts/GilroyMediumItalic/GilroyMediumItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GilroyMediumItalic/GilroyMediumItalic.woff") format("woff"),
+    url("../fonts/GilroyMediumItalic/GilroyMediumItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 500;
+}
+@font-face { 
+    font-family: "GilroyExtraBoldItalic";
+    src: url("../fonts/GilroyExtraBoldItalic/GilroyExtraBoldItalic.eot");
+    src: url("../fonts/GilroyExtraBoldItalic/GilroyExtraBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GilroyExtraBoldItalic/GilroyExtraBoldItalic.woff") format("woff"),
+    url("../fonts/GilroyExtraBoldItalic/GilroyExtraBoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
 }
