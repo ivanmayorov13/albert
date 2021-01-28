@@ -1,83 +1,36 @@
 @font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-Thin.woff2') format('woff2');
-    font-weight: 100;
-    font-style: thin;
+font-family: 'Gilroy';
+src: url('https://github.com/ivanmayorov13/albert/blob/main/Gilroy-Thin.woff') format('woff');
+font-weight: 100;
+font-style: thin;
 }
-
 @font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-ThinItalic.woff2') format('woff2');
-    font-weight: 100;
-    font-style: thinitalic;
+font-family: 'Gilroy';
+src: url('https://github.com/ivanmayorov13/albert/blob/main/Gilroy-Light.woff') format('woff');
+font-weight: 200;
+font-style: light;
 }
-
 @font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-Light.woff2') format('woff2');
-    font-weight: 200;
-    font-style: light;
+font-family: 'Gilroy';
+src: url('https://github.com/ivanmayorov13/albert/blob/main/Gilroy-Regular.woff') format('woff');
+font-weight: 300;
+font-style: normal;
 }
-
 @font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-LightItalic.woff2') format('woff2');
-    font-weight: 200;
-    font-style: lightitalic;
+font-family: 'Gilroy';
+src: url('https://github.com/ivanmayorov13/albert/blob/main/Gilroy-Medium.woff') format('woff');
+font-weight: 400;
+font-style: medium;
 }
-
 @font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-Regular.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
+font-family: 'Gilroy';
+src: url('https://github.com/ivanmayorov13/albert/blob/main/Gilroy-Semibold.woff') format('woff');
+font-weight: 500;
+font-style: semibold;
 }
-
 @font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-RegularItalic.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normalitalic;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-Medium.woff2') format('woff2');
-    font-weight: 400;
-    font-style: medium;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-MediumItalic.woff2') format('woff2');
-    font-weight: 400;
-    font-style: mediumitalic;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-Semibold.woff2') format('woff2');
-    font-weight: 500;
-    font-style: semi-bold;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-SemiboldItalic.woff2') format('woff2');
-    font-weight: 500;
-    font-style: semi-bolditalic;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-Bold.woff2') format('woff2');
-    font-weight: 600;
-    font-style: bold;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-        url('Gilroy-BoldItalic.woff2') format('woff2');
-    font-weight: 600;
-    font-style: bolditalic;
+font-family: 'Gilroy';
+src: url('https://github.com/ivanmayorov13/albert/blob/main/Gilroy-Extrabold.woff') format('woff');
+font-weight: 600;
+font-style: bold;
 }
